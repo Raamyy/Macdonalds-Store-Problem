@@ -1,6 +1,6 @@
 package App;
 
-public abstract class Bread extends Ingredient {
+ abstract class Bread extends Ingredient {
     Bread() {
         super();
     }

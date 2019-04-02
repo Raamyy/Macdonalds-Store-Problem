@@ -1,10 +1,10 @@
 package App;
 
-public class CheeseBurger extends Sandwich {
+ class CheeseBurger extends Sandwich {
     CheeseBurger(){
         this.name = "Cheese Burger";
     }
-    public void prepare(){
+    protected void prepare(){
         this.addComponent(new LowerRegularBun());
         this.addComponent(new BeefPatty());
         this.addComponent(new PasteurizedProcessAmericanCheese());

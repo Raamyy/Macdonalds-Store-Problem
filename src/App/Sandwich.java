@@ -8,8 +8,9 @@ public abstract class Sandwich extends Item {
     Sandwich(){
         super();
         components = new ArrayList<>();
+        prepare();
     }
-    public final void addComponent(Ingredient i){
+    protected final void addComponent(Ingredient i){
         components.add(i);
     }
     public final void display(){
@@ -17,7 +18,7 @@ public abstract class Sandwich extends Item {
         for(int i=0 ; i<components.size() ; i++){
             components.get(i).display();
         }
-        System.out.println(this.name+"\n------------------------");
+        System.out.println("\n------------------------");
     }
-    public abstract void prepare();
+    protected abstract void prepare();
 }

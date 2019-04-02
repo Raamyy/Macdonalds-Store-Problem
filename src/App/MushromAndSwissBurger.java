@@ -1,11 +1,11 @@
 package App;
 
-public class MushromAndSwissBurger extends Sandwich{
+class MushromAndSwissBurger extends Sandwich{
     MushromAndSwissBurger(){
         super();
         this.name = "Mushroom and Swiss burger";
     }
-    public void prepare(){
+    protected void prepare(){
         this.components.add(new LowerArtisanRoll());
         this.components.add(new BeefPatty());
         this.components.add(new SwissCheese());

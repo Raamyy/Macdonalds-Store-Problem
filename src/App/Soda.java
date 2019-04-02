@@ -1,8 +1,9 @@
 package App;
 
- abstract class Ingredient extends Item {
-    Ingredient(){
+class Soda extends Item {
+    Soda(){
         super();
+        this.name = "Soda";
     }
     public void display(){
         System.out.println(this.name);

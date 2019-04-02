@@ -1,6 +1,6 @@
 package App;
 
-public class Cheese extends Ingredient {
+ class Cheese extends Ingredient {
     Cheese() {
         super();
     }

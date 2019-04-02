@@ -1,6 +1,6 @@
 package App;
 
-public class Ketchup extends Sauce {
+ class Ketchup extends Sauce {
     Ketchup(){
         super();
         this.name = "KETCHUP";

@@ -1,6 +1,6 @@
 package App;
 
-public abstract class Item {
+ abstract class Item {
     protected String name;
     Item(){
         this.name = name;
