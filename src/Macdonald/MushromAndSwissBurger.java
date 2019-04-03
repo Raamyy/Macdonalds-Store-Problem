@@ -5,6 +5,10 @@ class MushromAndSwissBurger extends Sandwich{
         super();
         this.name = "Mushroom and Swiss burger";
     }
+    @Override
+    protected String getSlogan(){
+        return "Hearty, Creamy Layers of Unexpected Flavor.";
+    }
     protected void prepare(){
         this.components.add(new LowerArtisanRoll());
         this.components.add(new BeefPatty());

@@ -5,6 +5,10 @@ package Macdonald;
         super();
         this.name = "Double Cheese Burger";
     }
+     @Override
+     protected String getSlogan() {
+         return "Meatier and cheesier.";
+     }
     protected void prepare(){
         this.addComponent(new LowerRegularBun());
         this.addComponent(new BeefPatty());

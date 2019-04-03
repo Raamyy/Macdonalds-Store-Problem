@@ -4,7 +4,13 @@ package Macdonald;
     CheeseBurger(){
         this.name = "Cheese Burger";
     }
-    protected void prepare(){
+
+     @Override
+     protected String getSlogan() {
+         return "The cheesy original.";
+     }
+
+     protected void prepare(){
         this.addComponent(new LowerRegularBun());
         this.addComponent(new BeefPatty());
         this.addComponent(new PasteurizedProcessAmericanCheese());
