@@ -1,6 +1,6 @@
 package Macdonald;
 
- class Fries extends Item {
+ class Fries extends SideItem {
     Fries(){
         super();
         this.name = "Fries";

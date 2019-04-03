@@ -8,7 +8,7 @@ package Macdonald;
 
     @Override
     protected void BuildMeal() {
-        Components.add(SandwichMaker.PrepareSandwich(this.Stype));
-        Components.add(new Fries());
+        Sandwich= SandwichMaker.PrepareSandwich(this.Stype);
+        SideItems.add(new Fries());
     }
 }

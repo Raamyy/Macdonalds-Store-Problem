@@ -5,19 +5,21 @@ import java.util.ArrayList;
 public abstract class Meal{
     String mealName;
     protected SandwichType Stype;
-    protected ArrayList<Item> Components;
+    protected Sandwich Sandwich;
+    protected ArrayList<SideItem> SideItems;
     Meal(SandwichType s){
-        Components = new ArrayList<>();
+        SideItems = new ArrayList<>();
         this.Stype = s;
         BuildMeal();
     }
     public final void serve(){
         System.out.println("Here is your "+mealName+" !\n===================");
-        for (int i=0 ; i<Components.size() ; i++)
+        Sandwich.display();
+        System.out.println("Side Items:");
+        for (int i=0 ; i<SideItems.size() ; i++)
         {
-            Components.get(i).display();
+            SideItems.get(i).display();
         }
     }
     protected abstract void BuildMeal();
-
 }

@@ -9,6 +9,6 @@ class RegularMeal extends Meal{
 
     @Override
     protected void BuildMeal() {
-        Components.add(SandwichMaker.PrepareSandwich(this.Stype));
+        this.Sandwich=SandwichMaker.PrepareSandwich(this.Stype);
     }
 }
