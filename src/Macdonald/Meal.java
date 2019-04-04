@@ -2,6 +2,15 @@ package Macdonald;
 
 import java.util.ArrayList;
 
+/*  All the meals consist of 1 Sandwich and multiple side items (Assumed -- questioned not answered)
+    Every meal has buildMeal function that populates its data.
+
+    Meal Types:
+    - Regular (only Burger)
+    - Combo (Burger + Fires)
+    - Super Combo (Burger + Fries + Soda )
+ */
+
 public abstract class Meal{
     String mealName;
     protected SandwichType Stype;

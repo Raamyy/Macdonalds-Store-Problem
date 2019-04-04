@@ -6,7 +6,7 @@ class MushromAndSwissBurger extends Sandwich{
         this.name = "Mushroom and Swiss burger";
     }
     @Override
-    protected String getSlogan(){
+    protected String getSlogan() {
         return "Hearty, Creamy Layers of Unexpected Flavor.";
     }
     protected void prepare(){

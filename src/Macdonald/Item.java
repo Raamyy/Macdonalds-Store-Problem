@@ -1,9 +1,9 @@
 package Macdonald;
 
+// Every class in this program is an item
  abstract class Item {
     protected String name;
     Item(){
-        this.name = name;
     }
     public abstract void display();
 }

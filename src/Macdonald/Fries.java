@@ -5,7 +5,5 @@ package Macdonald;
         super();
         this.name = "Fries";
     }
-    public void display(){
-        System.out.println(this.name);
-    }
+
 }

@@ -1,6 +1,6 @@
 package Macdonald;
 
- class DoubleCheeseBurger extends Sandwich {
+ class DoubleCheeseBurger extends CheeseBurger {
     DoubleCheeseBurger(){
         super();
         this.name = "Double Cheese Burger";
@@ -9,15 +9,11 @@ package Macdonald;
      protected String getSlogan() {
          return "Meatier and cheesier.";
      }
-    protected void prepare(){
-        this.addComponent(new LowerRegularBun());
+
+    protected void placeBeefAndCheese(){
         this.addComponent(new BeefPatty());
         this.addComponent(new PasteurizedProcessAmericanCheese());
         this.addComponent(new BeefPatty());
         this.addComponent(new PasteurizedProcessAmericanCheese());
-        this.addComponent(new Ketchup());
-        this.addComponent(new PickleSlices());
-        this.addComponent(new Onions());
-        this.addComponent(new UpperRegularBun());
     }
 }
