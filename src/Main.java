@@ -13,8 +13,5 @@ public class Main {
         Meal meal3 = MealMaker.MakeMeal(MealType.SuperCombo, SandwichType.CheeseBurger);
         meal3.serve();
 
-        Sandwich order1 = SandwichMaker.PrepareSandwich(SandwichType.DoubleCheeseBurger);
-        order1.display();
-
     }
 }
