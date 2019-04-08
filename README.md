@@ -1,5 +1,7 @@
 # Macdonald's Problem
-This repo is my solution for the Maconald's problem tha was given as **Design Patterns** Assignment in **2019** at FCIS.
+This repo is my solution for the Maconald's problem that was given as **Design Patterns** Assignment in **2019** at FCIS.
+
+*you will find the code at **src** folder*.
 ***
 ## Problem Statment
 ### Macdonald's offer three sandwiches:
